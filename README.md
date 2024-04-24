@@ -8,7 +8,7 @@ Code is a class assignment covering the banker algorithm. In this it takes a tab
 Developed and tested in C++ on CentOS Linux via ssh using VSCode.
 
 ### Building & Running
-g++ Banker.cpp -o banker 
+g++ Banker.cpp -o banker  
 ./banker
 
 ### Sample Output
