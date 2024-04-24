@@ -16,3 +16,6 @@ g++ Banker.cpp -o banker
 $ ./banker
 Safe order : P:1 P:3 P:0 P:2 P:4 
 ```
+
+### Known Bugs
+None that I'm aware of.
