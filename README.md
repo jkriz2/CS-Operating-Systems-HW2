@@ -15,7 +15,7 @@ g++ Banker.cpp -o banker
 Input is divided into 3 files for easier processing.
   - All allocation and max must be same dimensions
   - All must be using the same number of resources
-  - Only newlines and carriage returns are filtered
+  - Only spaces, newlines and carriage returns are filtered
   - Each input must be ended with a semicolon
 
 ### File Explanation
