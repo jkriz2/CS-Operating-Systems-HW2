@@ -11,6 +11,18 @@ Developed and tested in C++ on CentOS Linux via ssh using VSCode.
 g++ Banker.cpp -o banker  
 ./banker
 
+### File Input
+Input is divided into 3 files for easier processing.
+  - All rows must be same size
+  - Only newlines and carriage returns are filtered
+  - Each input must be ended with a semicolon
+
+#### Sample format
+```
+1 2 3;
+4 5 6;
+```
+
 ### Sample Output
 ```
 $ ./banker
