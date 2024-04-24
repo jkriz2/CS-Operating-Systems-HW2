@@ -18,11 +18,12 @@ Input is divided into 3 files for easier processing.
   - Only newlines and carriage returns are filtered
   - Each input must be ended with a semicolon
 
-allocation.txt is for what is currently allocated by a process.
-max.txt is for the max possible resources a program can need.
-resources.txt is for what the system currently has free.
-
-#### Sample format
+### File Explanation
+Each file has a designated purpose
+ - allocation.txt is for what is currently allocated by a process.
+ - max.txt is for the max possible resources a program can need.
+ - resources.txt is for what the system currently has free.
+##### Sample format
 ```
 1 2 3;
 4 5 6;
