@@ -13,8 +13,8 @@ g++ Banker.cpp -o banker
 
 ### File Input
 Input is divided into 3 files for easier processing.
-  - All allocation and max must be same dimensions
-  - All must be using the same number of resources
+  - Allocation and max must be same dimensions
+  - All must have the same number of types of resources
   - Only spaces, newlines and carriage returns are filtered
   - Each input must be ended with a semicolon
 
@@ -22,7 +22,7 @@ Input is divided into 3 files for easier processing.
 Each file has a designated purpose
  - allocation.txt is for what is currently allocated by a process.
  - max.txt is for the max possible resources a program can need.
- - resources.txt is for what the system currently has free.
+ - resources.txt is for what the system currently has free, expects only one line.
 ##### Sample input format
 ```
 1 2 3;
