@@ -15,6 +15,7 @@ g++ Banker.cpp -o banker
 Input is divided into 3 files for easier processing.
   - Allocation and max must be same dimensions
   - All must have the same number of types of resources
+  - Only 0-9 are expected.
   - Only spaces, newlines and carriage returns are filtered
   - Each input must be ended with a semicolon
 
@@ -36,4 +37,4 @@ Safe order : P:1 P:3 P:0 P:2 P:4
 ```
 
 ### Known Bugs
-None that I'm aware of.
+None that I'm aware of. Has only been tested with 3 resource types as that was my focus but theoretically should handle more fine.
