@@ -3,7 +3,7 @@
 #include <fstream>
 
 
-//Function to take txt input and convert it into a 2d vector (Assumes format "1 2 3\n4 5 6\n...") 
+//Function to take txt input and convert it into a 2d vector (Assumes format "1 2 3;4 5 6;...") 
 std::vector<std::vector<int>> convert(std::ifstream& readinput) {
 	std::vector<std::vector<int>> processes;						
 	std::vector<int> buffer;								//Accepts input to make a vector to be inserted into processes
@@ -28,7 +28,7 @@ std::vector<std::vector<int>> convert(std::ifstream& readinput) {
 	readinput.close();									//Housekeeping
 	return processes;
 }
-//Function to take txt input and convert it into a vector (Assumes format "1 2 3\n")
+//Function to take txt input and convert it into a vector (Assumes format "1 2 3;")
 std::vector<int> convertoneline(std::ifstream& readinput) {					
 	std::vector<int> buffer;										//Accepts input to make a vector to be inserted into processes
 	char charinput;												//Holds char input from file input
